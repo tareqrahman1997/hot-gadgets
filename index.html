@@ -5,32 +5,198 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Hot-gadegets</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+              <ul class=" navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About Us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact Us">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1 class="title">Mi Notebook</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc tellus, hendrerit accumsan ligula sit amet, congue vestibulum est. Morbi ac posuere urna.</p>
+                  <h2 class="price">$1200</h2>
+                  <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+                </div>
+                <div class="col-md-5">
+                    <img src="imgs/banner-products/product-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1 class="title">Wireless speaker</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc tellus, hendrerit accumsan ligula sit amet, congue vestibulum est. Morbi ac posuere urna.</p>
+                  <h2 class="price">$200</h2>
+                  <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+                </div>
+                <div class="col-md-5">
+                    <img src="imgs/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h1 class="title">Bluetooth speakers By Google</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc tellus, hendrerit accumsan ligula sit amet, congue vestibulum est. Morbi ac posuere urna.</p>
+                  <h2 class="price">$250</h2>
+                  <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+                </div>
+                <div class="col-md-5">
+                    <img src="imgs/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="Smartphone">
+      <div class= "d-flex justify-content-between text" >
+        <h3 class="title ">Smartphone</h3>
+        <a href="#see all" class="see-all">See All</a>
+    </div>
+      <div class="card-deck">
+          <div class="card">
+            <img src="imgs/phone/phone-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="title">iphone II Pro</h5>
+              <p class="card-text">iphone II Pro is stand the top position of our site.  baecause it's our best selling product of the chart. so dot miss the top product</p>
+              <h1 class="price">$1200</h1>
+              <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/phone/phone-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="title">Samsung Galaxy Note10+</h5>
+              <p class="card-text">Samsung Galaxy Note10+ is one of the best brand in the world cause the brand embasidor is cr-7 the best player in the world so if you are great fan of him do hurry to click the card</p>
+              <h1 class="price  title">$620</h1>
+              <button class="buy-button btn-center"><a href="#">Buy Now &#8594;</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imgs/phone/phone-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi N100</h5>
+              <p class="card-text">This is the premium quality red color shoes be the first to get this with a great winter spice offer. so get hurrry to collect it</p>
+              <h1 class="price title">$350</h1>
+              <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <div class="container " id="Laptop">
+    <div class= "d-flex justify-content-between text" >
+      <h3 class="title">Laptop</h3>
+      <a href="#see all" class="see-all">See All</a>
+  </div>
+    <div class="card-deck">
+        <div class="card">
+          <img src="imgs/laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="title">Asus VivoBook</h5>
+            <p class="card-text">TAsus VivoBook is stand the top position of our site.  baecause it's our best selling product of the chart. so dot miss the top product</p>
+            <h1 class="price">$3020</h1>
+            <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+            <p class="card-text">Razer Blade is one of the best brand in the world cause the brand embasidor is cr-7 the best player in the world so if you are great fan of him do hurry to click the card</p>
+            <h1 class="price">$1520</h1>
+            <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imgs/laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="title">Xiaomi Notebook Pro</h5>
+            <p class="card-text">This is the premium quality red color shoes be the first to get this with a great winter spice offer. so get hurrry to collect it</p>
+            <h1 class="price title">$1050</h1>
+            <button class="buy-button"><a href="#">Buy Now &#8594;</a></button>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+<div class="container categories">
+  <div class=" d-flex justify-content-center">
+      <h3 class="bg_categories">Categories</h3>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-3 col-sm-6 d-flex align-items-center">
+       <div class="Bag bg_cat">
+        <img src="imgs/Categories/bag.png" alt="">
+        <h6 class="title">Bag</h6>
+       </div>
+    </div>
+    <div class="col-md-3 col-sm-6 d-flex flex-column">
+        <div class="Perfume">
+            <img src="imgs/Categories/perfume.png" alt="">
+            <h6 class="title">Perfume</h6>
+        </div>
+        <div class="Shoes">
+            <img src="imgs/Categories/shoe.png" alt="">
+            <h6 class="title">Shoes</h6>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+        <img src="imgs/Categories/pale-order.png" class="w-100" alt="">
+    </div>
+</div>
+</div>
+</div>
+<footer>
+  <p>2020_©Hot Gadget. All rights reserved.By:Tareq Rahman</p>
+</footer>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
